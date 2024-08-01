@@ -1,0 +1,28 @@
+@media (max-width: 575.98px) {
+    #product-2 .main-img {
+        position: absolute;
+        bottom: 15vh;
+        left: 8vw;
+        width: 30vw;
+        height: auto;
+    }
+
+    #product-2 .main-h1 {
+        position: absolute;
+        bottom: 0vh;
+        left: 6vw;
+        width: 50vw;
+        font-size: 3.5vw;
+        /* background: goldenrod; */
+    }
+
+    #product-2 .description {
+        position: absolute;
+        top: 15vh;
+        right: 4vw;
+        margin-top: 60px;
+        width: 46vw;
+        text-align: justify;
+        font-size: 1.3vw;
+    }
+}
