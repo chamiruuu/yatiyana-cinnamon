@@ -271,7 +271,7 @@
 }
 
 #home6 {
-  background: url(/assets/0001.jpg);
+  background: url("../../assets/0001.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
