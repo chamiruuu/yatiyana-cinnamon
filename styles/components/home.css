@@ -50,7 +50,7 @@
   font-size: 1.4vw;
 }
 
-#home2 a{
+#home2 a {
   text-decoration: none;
 }
 
@@ -132,7 +132,7 @@
   font-size: 1.4vw;
 }
 
-#home3 a{
+#home3 a {
   text-decoration: none;
 }
 
@@ -215,7 +215,7 @@
   transform: translateX(-50%);
 }
 
-#home4 .HBimg{
+#home4 .HBimg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -290,7 +290,7 @@
   text-wrap: none;
   width: 100%;
   text-align: center;
-  color: rgba(0, 0, 0, 0.555)0, 0, 0, 0.281);
+  color: rgba(0, 0, 0, 0.555) 0, 0, 0, 0.281;
 }
 
 #home7 .title {
@@ -313,7 +313,7 @@
   font-size: 1.4vw;
 }
 
-#home7 a{
+#home7 a {
   text-decoration: none;
 }
 
