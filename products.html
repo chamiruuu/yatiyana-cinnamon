@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YATIYANA CINNAMON</title>
+    <script src="./scripts/handlers/scroll-handler.js"></script>
+    <link rel="stylesheet" href="./styles/base-styles.css">
+    <link rel="stylesheet" href="./styles/components/products.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/layout/scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header id="common-header-navbar">
+        <nav>
+            <a href="#"><img src="/assets/logo/logo.gif" alt="logo" class="logo"></a>
+            <svg class="ham hamRotate ham7 hamburger" viewBox="0 0 100 100" width="60" height="60px"
+                onclick="toggleMenu()">
+                <path class="line top"
+                    d="m 70,33 h -40 c 0,0 -6,1.368796 -6,8.5 0,7.131204 6,8.5013 6,8.5013 l 20,-0.0013" />
+                <path class="line middle" d="m 70,50 h -40" />
+                <path class="line bottom"
+                    d="m 69.575405,67.073826 h -40 c -5.592752,0 -6.873604,-9.348582 1.371031,-9.348582 8.244634,0 19.053564,21.797129 19.053564,12.274756 l 0,-40" />
+            </svg>
+            <ul class="navibar">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./ourstory.html">OUR STORY</a></li>
+                <li><a href="./products.html">PRODUCTS</a></li>
+                <li><a href="./socialresponsibility.html">SOCIAL RESPONSIBILITY</a></li>
+                <li><a href="./contactus.html">CONTACT US</a></li>
+                <li class="dropdown">
+                    <a href="#"><img src="/assets/icons/language-black-fill.svg" alt="language" class="language"></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">EN</a></li>
+                        <li><a href="#">ES</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <div id="fullpage">
+        <section class="section" id="product-1">
+            <div class="oth-products">
+                <div class="brder-box" onclick="showDiv(1)">.</div>
+                <div class="brder-box" onclick="showDiv(2)">.</div>
+                <div class="brder-box" onclick="showDiv(3)">.</div>
+                <div class="brder-box" onclick="showDiv(4)">.</div>
+                <div class="brder-box" onclick="showDiv(5)">.</div>
+            </div>
+
+            <div class="swap-content active" id="div1">
+                <img src="./assets/refs/ref-img.png" alt="product" class="main-img">
+                <h1 class="main-h1 text-uppercase">Alba</h1>
+                <div class="description">
+                    <p>Ceylon Cinnamon Sticks, specifically the Alba grade, are the thinnest and finest quality within
+                        the cinnamon bark (stick) group, making them the most expensive grade available. These sticks
+                        have a diameter ranging from 8 mm to 10 mm, similar to that of a pencil. Despite their size,
+                        Alba cinnamon offers an exceptional taste and a fresh, exotic aroma, distinguishing it from
+                        other grades. This top-tier quality is the best Ceylon cinnamon you can purchase from Sri Lanka.
+                        Due to its superior taste, Alba cinnamon is highly sought after and rare in the global cinnamon
+                        market.</p>
+                </div>
+            </div>
+
+            <div class="swap-content" id="div2">
+                <img src="./assets/refs/ref-img.png" alt="product" class="main-img">
+                <h1 class="main-h1 text-uppercase">Grade C5</h1>
+                <div class="description">
+                    <p>Our premium quality C5 grade 5-inch Ceylon Cinnamon sticks feature ultra-low coumarin levels, an
+                        exotic aroma, and are non-irradiated and salt-free. Sealed in our new triple-layer stand-up
+                        pouch to protect from UV damage and preserve freshness, these high-quality cinnamon sticks meet
+                        export quality standards and are selected for their colour, shape, small size, quilling density,
+                        foxing percentage, fresh taste, and aroma. Due to the mild nature of Ceylon Cinnamon, you may
+                        not notice an immediate aroma when opening the pouch. However, breaking a stick in half will
+                        release its refined aroma, distinct from the pungent cassia-type cinnamon. Boiling the sticks
+                        into tea further enhances their aroma and taste.</p>
+                </div>
+            </div>
+
+            <div class="swap-content" id="div3">
+                <img src="./assets/refs/ref-img.png" alt="product" class="main-img">
+                <h1 class="main-h1 text-uppercase">Grade C4</h1>
+                <div class="description">
+                    <p>The C4 Cinnamon grade is one of the finest Ceylon Cinnamon grades, ranking just below the C5
+                        grade in terms of thickness and price. This special Continental grade has a diameter of 15 cm
+                        and is sourced from the southern part of Sri Lanka, known for producing the best true cinnamon.
+                        Unlike regular Cassia Cinnamon, Ceylon Cinnamon sticks are soft, rolled like cigars with
+                        multiple thin strips of bark, and easily flake for grinding into fine powder, perfect for adding
+                        to curries, rice, or custards. Like the Alba grade, C4 grade Ceylon cinnamon is highly regarded
+                        for export and is ideal for use in sweet dishes, desserts, and as sprinkles in lattes or hot
+                        chocolate in its powdered form.</p>
+                </div>
+            </div>
+
+            <div class="swap-content" id="div4">
+                <img src="./assets/refs/ref-img.png" alt="product" class="main-img">
+                <h1 class="main-h1 text-uppercase">Grade H1</h1>
+                <div class="description">
+                    <p>The H1 Cinnamon grade, part of the Ceylon Cinnamon grades, is the best cinnamon of the Hamburg
+                        (H) grade, with the lowest quill diameter of 23-24 mm. It features a pale brown hue, distinct
+                        flavour and scent, and a coarse texture. Ranking just below the C4 Cinnamon in thickness and
+                        price, this Real Ceylon Cinnamon grade is a special Continental variety with a diameter of 18-22
+                        mm.</p>
+                </div>
+            </div>
+
+            <div class="swap-content" id="div5">
+                <img src="./assets/refs/ref-img.png" alt="product" class="main-img">
+                <h1 class="main-h1 text-uppercase">Grade H2</h1>
+                <div class="description">
+                    <p>The H2 Cinnamon grade is one of the Ceylon Cinnamon grades, ranking just below the H1 Cinnamon in
+                        thickness and price. This Real Ceylon Cinnamon grade is a special Continental variety with a
+                        diameter of 25-27 mm.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="product-2">
+            <div>
+                <img src="./assets/refs/ref-img.png" alt="product" class="main-img">
+                <h1 class="main-h1 text-uppercase">Ceylon Cinnamon Powder</h1>
+                <div class="description">
+                    <p>Explore the delicate flavour and heady aroma of the world's best Ceylon Cinnamon Powder from Sri
+                        Lanka. This silky smooth powder has none of the grittiness found in other cinnamon powders.
+                        Perfect for adding to tea or coffee, it can also enhance our signature pork belly recipe or
+                        marinate chicken to add flavour and brown it. Sprinkle a little on sliced apples, oranges, or
+                        watermelon, or mix it into an apple blackberry smoothie. It truly shines in hot pancakes or
+                        cinnamon French toast, where the heat releases its full aroma and taste.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="product-3">
+            <div class="oth-products">
+                <div class="brder-box" onclick="toggleContentDiv(11)">.</div>
+                <div class="brder-box" onclick="toggleContentDiv(12)">.</div>
+            </div>
+
+            <div class="swap-content-2 active" id="contentDiv11">
+                <img src="./assets/refs/ref-img.png" alt="product" class="main-img">
+                <h1 class="main-h1 text-uppercase">Cinnamon Leaf Oil</h1>
+                <div class="description">
+                    <p>Explore the delicate flavour and heady aroma of the world's best Ceylon Cinnamon Powder from the
+                        island of Sri Lanka. This powder is silky smooth on your tongue, with none of the grittiness
+                        found in other cinnamon powders. It's perfect for adding to tea or coffee, making our signature
+                        pork belly recipe, or marinating chicken to add flavour and browning. You can also sprinkle a
+                        little on sliced apples, oranges, or watermelon, or mix it into an apple blackberry smoothie.
+                        However, it truly shines in hot pancakes or cinnamon French toast, where the heat releases its
+                        full aroma and taste.</p>
+                </div>
+            </div>
+
+            <div class="swap-content-2" id="contentDiv12">
+                <img src="./assets/refs/ref-img.png" alt="product" class="main-img">
+                <h1 class="main-h1 text-uppercase">Cinnamon Bark Oil</h1>
+                <div class="description">
+                    <p>Cinnamon bark oil, extracted from trees like Cinnamomum verum (Ceylon cinnamon), contains key
+                        compounds such as cinnamaldehyde, cinnamyl acetate, eugenol, and eugenol acetate, lending it a
+                        characteristic warming scent. Widely utilised in aromatherapy and as a flavouring agent, its
+                        concentrated nature requires careful use to avoid overpowering dishes. Known for its
+                        stress-reducing properties and ability to enhance mood, the aroma of cinnamon bark oil creates a
+                        warm and inviting atmosphere in various settings.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="product-4">
+            <div>
+                <img src="./assets/refs/ref-img.png" alt="product" class="main-img">
+            </div>
+        </section>
+
+        <section class="section fp-auto-height" id="common-footer">
+            <div class="footer">
+                <img src="./assets/logo/logo.gif" alt="logo" class="logo">
+                <div class="col1">
+                    <h1>CONTACT US </h1>
+                    <a href="#">+94707723423 | +94718760660</a>
+                    <a href="mailto:yatiyanacinnamon@gmail.com" style="font-size: 0.9rem;">yatiyanacinnamon@gmail.com</a>
+                    <br><br>
+                    <div>
+                        <a href="#"><img src="./assets/icons/in.gif" alt=""></a>
+                        <a href="#"><img src="./assets/icons/insta.gif" alt=""></a>
+                        <a href="https://wa.me/94707723423?text=Hello%20I%20have%20a%20question%20about%20your%20product" target="_blank"><img src="./assets/icons/wa.gif" alt=""></a>
+                        <a href="https://www.facebook.com/yatiyanacinnamon/"><img src="./assets/icons/fb.gif" alt=""></a>
+                    </div>
+                </div>
+                <div class="col2">
+                    <h1>PRODUCTS</h1>
+                    <a href="#">cinnamon sticks</a>
+                    <a href="#">cinnamon powder</a>
+                    <a href="#">cinnamon oil</a>
+                    <a href="#">cinnamon chips</a>
+                </div>
+                <div class="col3">
+                    <h1>Quick Links</h1>
+                    <a href="./index.html">home</a> <br>
+                    <a href="./ourstory.html">our story</a> <br>
+                    <a href="./products.html">PRODUCTS</a> <br>
+                    <a href="./socialresponsibility.html">SOCIAL RESPONSIBILITY</a> <br>
+                    <a href="./contactus.html">CONTACT US</a> 
+                </div>
+                <p>Copyright © 2024 - Yatiyana Cinnamon - All Rights Reserved. Concept, Design & Development By <a href="#">dev8</a></p>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

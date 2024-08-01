@@ -1,0 +1,163 @@
+#product-1 .oth-products{
+    display: flex;
+    position: absolute;
+    bottom: 10vh;
+    right: 4vw;
+}
+
+#product-1 .brder-box{
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#product-1 .brder-box:hover{
+    background-color: lightblue;
+    transition: 0.5s ease-in;
+}
+
+#product-1 .swap-content {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+#product-1 .swap-content.active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#product-1 .main-img{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    top: 15vh;
+    left: 8vw;
+    background: blue;
+}
+
+#product-1 .main-h1{
+    width: 42vw;
+    position: absolute;
+    top: 15vh;
+    right: 10vw;
+    font-size: 4.5vw;
+}
+
+#product-1 .description{
+    position: absolute;
+    top: 15vh;
+    right: 4vw;
+    margin-top: 60px;
+    width: 46vw;
+    text-align: justify;
+    font-size: 1.3vw;
+}
+
+/* section2 */
+
+#product-2 .main-img{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    top: 15vh;
+    left: 8vw;
+    background: blue;
+}
+
+#product-2 .main-h1{
+    width: 52vw;
+    position: absolute;
+    top: 15vh;
+    right: 0vw;
+    font-size: 3.5vw;
+}
+
+#product-2 .description{
+    position: absolute;
+    top: 15vh;
+    right: 4vw;
+    margin-top: 60px;
+    width: 46vw;
+    text-align: justify;
+    font-size: 1.3vw;
+}
+
+/* section3 */
+
+#product-3 .main-img{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    top: 15vh;
+    left: 8vw;
+    background: blue;
+}
+
+#product-3 .main-h1{
+    width: 52vw;
+    position: absolute;
+    top: 15vh;
+    right: 0vw;
+    font-size: 3.5vw;
+}
+
+#product-3 .description{
+    position: absolute;
+    top: 15vh;
+    right: 4vw;
+    margin-top: 60px;
+    width: 46vw;
+    text-align: justify;
+    font-size: 1.3vw;
+}
+
+#product-3 .oth-products{
+    display: flex;
+    position: absolute;
+    bottom: 10vh;
+    right: 4vw;
+}
+
+#product-3 .brder-box{
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#product-3 .brder-box:hover{
+    background-color: lightblue;
+}
+
+#product-3 .swap-content-2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#product-3 .swap-content-2.active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* section4 */
+
+#product-4 .main-img{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    top: 15vh;
+    left: 8vw;
+    background: blue;
+}

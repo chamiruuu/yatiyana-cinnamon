@@ -1,0 +1,17 @@
+#ourstory1 h1{
+    font-size: 5vw;
+    position: absolute;
+    top: 20vh;
+    left: 8vw;
+    z-index: 2;
+}
+
+#ourstory1 .info{
+    font-size: 1.4vw;
+    width: 100vh;
+    position: absolute;
+    bottom: 10vh;
+    left: 8vw;
+    text-align: left;
+
+}

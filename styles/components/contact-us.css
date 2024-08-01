@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#CU1 .gmap {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  background-image: url('/assets/refs/Capture.PNG'); /* Adjust the path accordingly */
+  background-size: cover; /* Ensure the image covers the entire div */
+  background-position: center; /* Center the image */
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+#CU1 .cta {
+  margin:20px;
+  border: none;
+  background: rgba(0, 0, 0, 0.507);
+  cursor: pointer;
+}
+
+#CU1 .cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+#CU1 .cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+#CU1 .cta:hover svg {
+  transform: translateX(0);
+}
+
+#CU1 .cta:active svg {
+  transform: scale(0.9);
+}
+
+#CU1 .hover-underline-animation {
+  position: relative;
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+
+#CU1 .hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:gold;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#CU1 .cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#CU1 .cinfo {
+  position: absolute;
+  bottom: -5vh;
+  left: 4vw;
+  width: 60vw; 
+  height: auto; 
+  padding: 2vh 2vw; 
+  border: solid 3px #474544;
+  background: white;
+  border-radius: 6px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-family: 'Arial', sans-serif; 
+  display: flex; 
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+#CU1 .contact-item {
+  display: flex;
+  flex-direction: column; /* Stack icon and text vertically */
+  align-items: center; /* Center align items horizontally */
+  margin-right: 2vw; /* Space between items */
+}
+
+#CU1 .contact-item i {
+  font-size: 3vh; /* Icon size */
+  color: #474544; /* Icon color */
+  margin-bottom: 1vh; /* Space between icon and text */
+}
+
+#CU1 .contact-item span {
+  font-size: 1.8vh; /* Text size */
+  color: #333; /* Text color */
+  text-align: center; /* Center align text */
+}
+
+/* Remove the right margin from the last contact item */
+#CU1 .contact-item:last-child {
+  margin-right: 0;
+}
+
+#CU1 a{
+  text-decoration: none;
+  color: black;
+  transition: 0.1s ease;
+}
+
+#CU1 a:hover{
+  color: #ffd900;
+  transition: 0.1s ease;
+}
+
+#CU1 .social img{
+  width: 20px;
+  margin: 12px;
+  margin-top: 5px;
+}
+
+#CU1 #container {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  transform: translateY(-50%);
+  border: solid 3px #474544;
+  border-radius: 6px;
+  width: 25vw;
+  height: 70vh;
+  background: white;
+  z-index: 2;
+}
+
+#CU1 form {
+  padding: 30px;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+
+#CU1 .name, #CU1 .country, #CU1 .email, #CU1 .message {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#CU1 input[type='text'], #CU1 input[type='email'], #CU1 select, #CU1 textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #444744;
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0px;
+  text-transform: uppercase;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+#CU1 input[type='text']:focus, #CU1 input[type='email']:focus, #CU1 textarea:focus {
+  outline: none;
+}
+
+#CU1 textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+
+#CU1 ::-webkit-input-placeholder {
+  color: #474544;
+}
+
+#CU1 :-moz-placeholder { 
+  color: #474544;
+  opacity: 1;
+}
+
+#CU1 ::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+#CU1 :-ms-input-placeholder {
+  color: #474544;
+}
+
+#CU1 #form_button {
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+#CU1 #form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}

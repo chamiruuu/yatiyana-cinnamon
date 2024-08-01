@@ -1,0 +1,266 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+/* Sticky Navbar */
+#common-header-navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Ensure it stays on top */
+  background-color: rgba(192, 16, 16, 0); /* Slightly transparent background */
+  padding: 10px 20px;
+}
+
+/* Navbar Styles */
+#common-header-navbar nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#common-header-navbar nav .logo {
+  display: block;
+  width: 65px;
+}
+
+#common-header-navbar nav .language {
+  display: block;
+  width: 25px;
+}
+
+#common-header-navbar nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 55%;
+  right: 0;
+  list-style: none;
+  background: white;
+  width: 40px;
+}
+
+#common-header-navbar nav .dropdown-menu li {
+  padding: 8px 16px;
+}
+
+#common-header-navbar nav .dropdown-menu li a {
+  text-decoration: none;
+  color: black;
+  display: block; /* Ensure links take up the full width of the list item */
+}
+
+#common-header-navbar nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#common-header-navbar nav .dropdown-menu.show {
+  display: block;
+}
+
+#common-header-navbar .hamburger {
+  display: none;
+}
+
+#common-header-navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  align-items: center;
+  justify-content: left;
+  background: #ffd90000;
+}
+
+#common-header-navbar nav li {
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+
+#common-header-navbar nav a {
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+}
+
+#common-header-navbar nav a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: -4px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #ffd900;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+  width: 0;
+}
+
+#common-header-navbar nav a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+/* Hamburger animation */
+#common-header-navbar .ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#common-header-navbar .hamRotate.active {
+  transform: rotate(45deg);
+}
+
+#common-header-navbar .hamRotate180.active {
+  transform: rotate(180deg);
+}
+
+#common-header-navbar .line {
+  fill: none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: #000;
+  stroke-width: 5.5;
+  stroke-linecap: round;
+}
+
+#common-header-navbar .ham7 .top {
+  stroke-dasharray: 40 82;
+}
+
+#common-header-navbar .ham7 .middle {
+  stroke-dasharray: 40 111;
+}
+
+#common-header-navbar .ham7 .bottom {
+  stroke-dasharray: 40 161;
+}
+
+#common-header-navbar .ham7.active .top {
+  stroke-dasharray: 17 82;
+  stroke-dashoffset: -62px;
+}
+
+#common-header-navbar .ham7.active .middle {
+  stroke-dashoffset: 23px;
+}
+
+#common-header-navbar .ham7.active .bottom {
+  stroke-dashoffset: -83px;
+}
+
+
+/* footer */
+#common-footer .footer{
+  background:#000000;
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+}
+
+#common-footer .logo{
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+  width: 8vw;
+}
+
+
+
+#common-footer .col1{
+  width: 18vw;
+  position: absolute;
+  top: 8%;
+  right: 2%;
+}
+
+#common-footer .col1 h1{
+  font-size: 15px;
+  color: #ffffff;
+}
+
+#common-footer .col1 a{
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform:lowercase;
+}
+
+#common-footer .col1 img{
+  width: 20px;
+  margin: 5px;
+  transition: filter 0.3s ease;
+}
+
+#common-footer .col1 img:hover{
+  filter: sepia(1) saturate(7) hue-rotate(10deg) brightness(1.2);
+}
+
+#common-footer p{
+  position: absolute;
+  bottom: 0.8%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin:0;
+  text-wrap: nowrap;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+
+#common-footer .col2{
+  width: 12vw;
+  position: absolute;
+  top: 8%;
+  right: 22%;
+}
+
+#common-footer .col2 h1{
+  font-size: 15px;
+  color: #ffffff;
+}
+
+#common-footer .col2 a{
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#common-footer .col3{
+  width: 12vw;
+  position: absolute;
+  top: 8%;
+  right: 36%;
+  text-transform: uppercase;
+}
+
+#common-footer .col3 h1{
+  font-size: 15px;
+  color: #ffffff;
+}
+
+#common-footer .col3 a{
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#common-footer a{
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#common-footer a:hover{
+  color: #ffd900;
+  transition: 0.5ms ease-in-out;
+}

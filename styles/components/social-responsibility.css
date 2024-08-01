@@ -1,0 +1,58 @@
+/* #SR1 {
+    background: url(/assets/refs/SRbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#SR1 .tint {
+    background: rgba(255, 196, 0, 0.185);
+    width: 100vw;
+    height: 100vh;
+} */
+
+#SR1 .title {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+    text-align: left;
+    width: 50vw;
+    font-size: 50px;
+
+}
+
+#SR1 .subtext {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+    padding-top: 16vw;
+    width: 52%;
+
+}
+
+#SR2 .custom-rectangle {
+    height: calc(40vh);
+    padding: 10px;
+    border: 0.5px solid #00000017;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#SR2 .custom-rectangle h1{
+    font-size: 24px;
+    text-align: center;
+}
+#SR2 .custom-rectangle p {
+    margin-bottom: 0;
+}
+
+#SR2 .row {
+    margin-top: 10vh;
+    margin-right: 6vh;
+    margin-left: 6vh;
+}

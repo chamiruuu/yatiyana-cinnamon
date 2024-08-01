@@ -1,0 +1,376 @@
+/* #home1 {
+  background: url(/assets/refs/bgrefnewhome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+} */
+
+#home1 .title {
+  font-size: 70px;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-wrap: none;
+  width: 100%;
+  text-align: center;
+}
+
+#home1 .subtext {
+  font-size: 24px;
+  position: absolute;
+  text-align: center;
+  padding-top: 95px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#home2 .title {
+  width: 100%;
+  font-size: 60px;
+  position: absolute;
+  bottom: 10vh;
+  left: 6vw;
+  margin-bottom: 190px;
+  text-align: left;
+  line-height: 60px;
+}
+
+#home2 .description {
+  position: absolute;
+  bottom: 10vh;
+  left: 6vw;
+  width: 50vw;
+  text-align: justify;
+  font-size: 1.4vw;
+}
+
+#home2 a{
+  text-decoration: none;
+}
+
+#home2 .rm-btn {
+  position: absolute;
+  bottom: 5vh;
+  left: 40vw;
+}
+
+#home2 .cta {
+  margin: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#home2 .cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+#home2 .cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+#home2 .cta:hover svg {
+  transform: translateX(0);
+}
+
+#home2 .cta:active svg {
+  transform: scale(0.9);
+}
+
+#home2 .hover-underline-animation {
+  position: relative;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+}
+
+#home2 .hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: gold;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#home2 .cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#home3 .title {
+  width: 100%;
+  font-size: 60px;
+  position: absolute;
+  bottom: 10vh;
+  right: 6vw;
+  text-align: right;
+  margin-bottom: 160px;
+  line-height: 60px;
+}
+
+#home3 .description {
+  position: absolute;
+  bottom: 10vh;
+  right: 6vw;
+  width: 50vw;
+  text-align: justify;
+  font-size: 1.4vw;
+}
+
+#home3 a{
+  text-decoration: none;
+}
+
+#home3 .rm-btn {
+  position: absolute;
+  bottom: 5vh;
+  right: 4vw;
+}
+
+#home3 .cta {
+  margin: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#home3 .cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+#home3 .cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+#home3 .cta:hover svg {
+  transform: translateX(0);
+}
+
+#home3 .cta:active svg {
+  transform: scale(0.9);
+}
+
+#home3 .hover-underline-animation {
+  position: relative;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+}
+
+#home3 .hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: gold;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#home3 .cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#home4 .title {
+  font-size: 50px;
+  position: absolute;
+  top: 15vh;
+  left: 50%;
+  transform: translateX(-50%);
+  text-wrap: none;
+  width: 100%;
+  text-align: center;
+}
+
+#home4 .subtext {
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  margin-top: 52px;
+  top: 15vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#home4 .HBimg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35vw;
+  margin-top: 10vh;
+}
+
+#home4 .HB1 {
+  font-size: 24px;
+  position: absolute;
+  top: 40vh;
+  left: 6vw;
+}
+
+#home4 .HB2 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 30vh;
+  left: 10vw;
+}
+
+#home4 .HB3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 8vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#home4 .HB4 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 30vh;
+  right: 10vw;
+}
+
+#home4 .HB5 {
+  font-size: 24px;
+  position: absolute;
+  top: 40vh;
+  right: 6vw;
+}
+
+#home5 .title {
+  font-size: 40px;
+  position: absolute;
+  top: 18vh;
+  text-wrap: none;
+  width: 100%;
+  text-align: left;
+  margin-left: 6vw;
+}
+
+#home6 {
+  background: url(/assets/0001.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#home6 .title {
+  font-size: 40px;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-wrap: none;
+  width: 100%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.555)0, 0, 0, 0.281);
+}
+
+#home7 .title {
+  width: 100%;
+  font-size: 60px;
+  position: absolute;
+  bottom: 10vh;
+  right: 6vw;
+  text-align: right;
+  margin-bottom: 210px;
+  line-height: 60px;
+}
+
+#home7 .description {
+  position: absolute;
+  bottom: 10vh;
+  right: 6vw;
+  width: 50vw;
+  text-align: justify;
+  font-size: 1.4vw;
+}
+
+#home7 a{
+  text-decoration: none;
+}
+
+#home7 .rm-btn {
+  position: absolute;
+  bottom: 5vh;
+  right: 4vw;
+}
+
+#home7 .cta {
+  margin: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#home7 .cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+#home7 .cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+#home7 .cta:hover svg {
+  transform: translateX(0);
+}
+
+#home7 .cta:active svg {
+  transform: scale(0.9);
+}
+
+#home7 .hover-underline-animation {
+  position: relative;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+}
+
+#home7 .hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: gold;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#home7 .cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

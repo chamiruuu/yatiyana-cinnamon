@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatiyana Cinnamon - Sustainability</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header .logo {
+    float: left;
+    margin-left: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f4a261;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.hero .btn {
+    background: #f4a261;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #e76f51;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2, section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #555;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.full-width {
+    background: #f4f4f4;
+    padding: 40px 0;
+}
+
+.full-width .container {
+    text-align: center;
+}
+
+.split-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.split-layout .image {
+    flex: 1;
+}
+
+.split-layout .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.split-layout .text {
+    flex: 1;
+    padding: 20px;
+}
+
+.split-layout blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    border-left: 5px solid #f4a261;
+    padding-left: 15px;
+}
+
+.call-to-action {
+    background: #f4a261;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.call-to-action .btn {
+    background: white;
+    color: #f4a261;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.call-to-action .btn:hover {
+    background: #fff3e0;
+}
+
+footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .quick-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .quick-links ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .quick-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .contact-info,
+footer .social-media,
+footer .certifications {
+    margin: 20px 0;
+}
+
+footer .certifications img {
+    width: 50px;
+    margin: 0 5px;
+}
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Yatiyana Cinnamon</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#sustainability">Sustainability</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="overlay">
+            <h1>Sustainability at the Heart of Our Business</h1>
+            <p>Respecting and Giving Back to Nature at Every Step</p>
+            <a href="#learn-more" class="btn">Learn More</a>
+        </div>
+    </section>
+    <section id="introduction" class="container">
+        <h2>Our Commitment to Sustainability</h2>
+        <p>Nature is the lifeline of our business. That is why we believe in respecting and giving back to nature at every step of our operational process. From sourcing ingredients to labelling the products, we follow a range of sustainable practices that benefit the planet in the long run.</p>
+    </section>
+    <section id="sustainable-practices" class="container grid">
+        <div class="card">
+            <img src="cinnamon-plantation.jpg" alt="Cinnamon Plantation">
+            <div class="card-content">
+                <h3>Sourcing Ingredients</h3>
+                <p>Our production plants are structured to reduce waste and use energy efficiently. For example, we collect rainwater for our cooling tanks to avoid wasting tap water, which can be used for drinking purposes.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="rainwater-collection.jpg" alt="Rainwater Collection">
+            <div class="card-content">
+                <h3>Energy Efficiency</h3>
+                <p>Additionally, once the cinnamon leaves are steamed to extract oil, the used leaves are fed into our boilers to generate energy. The water used in our plants to produce cinnamon oil is stored in separate tanks and reused in production, ensuring it is not released into the environment.</p>
+            </div>
+        </div>
+    </section>
+    <section id="waste-management" class="full-width">
+        <div class="container">
+            <h3>Waste Management</h3>
+            <p>As we progress in our business, we plan to streamline our operations to reduce our carbon footprint, conserve biodiversity, and manage waste systematically by fostering strong partnerships.</p>
+        </div>
+    </section>
+    <section id="environmental-conservation" class="container grid">
+        <div class="card">
+            <img src="biodiversity.jpg" alt="Biodiverse Environment">
+            <div class="card-content">
+                <h3>Environmental Conservation</h3>
+                <p>Yatiyana Cinnamon is committed to sustainable growth. Therefore, the company contributes many donations to a school situated near our Alpitiya factory.</p>
+                <ul>
+                    <li>Reducing carbon footprint</li>
+                    <li>Conserving biodiversity</li>
+                    <li>Managing waste systematically</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="community-involvement" class="full-width split-layout">
+        <div class="image">
+            <img src="community.jpg" alt="Community Involvement">
+        </div>
+        <div class="text">
+            <h3>Community Involvement</h3>
+            <p>Yatiyana Cinnamon is committed to sustainable growth. Therefore, the company contributes many donations to a school situated near our Alpitiya factory.</p>
+            <blockquote>"Yatiyana Cinnamon's contributions have greatly improved our facilities and educational resources." - Community Member</blockquote>
+        </div>
+    </section>
+    <section id="call-to-action" class="call-to-action">
+        <div class="container">
+            <h3>Join Us in Making a Difference</h3>
+            <p>Encourage visitors to support or learn more about your sustainable practices.</p>
+            <a href="#get-involved" class="btn">Get Involved</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="quick-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#sustainability">Sustainability</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <p>Address: 123 Cinnamon Lane, Alpitiya</p>
+                <p>Email: info@yatiyana.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="certifications">
+                <img src="certification-logo1.png" alt="Certification 1">
+                <img src="certification-logo2.png" alt="Certification 2">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
